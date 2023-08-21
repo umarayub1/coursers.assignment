@@ -1,2 +1,2 @@
-# coursers.assignment
-coursers assignment
+# coursera.assignment
+coursera assignment
