@@ -1,0 +1,56 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+.food-section {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    float: left;
+    box-sizing: border-box;
+    width: 33.33%;
+    position: relative;
+}
+
+.section-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff9900;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+@media (max-width: 991px) {
+    .food-section {
+        width: 50%;
+    }
+    
+    .food-section:last-child {
+        width: 100%;
+        clear: both;
+    }
+}
+
+@media (max-width: 767px) {
+    .food-section {
+        width: 100%;
+    }
+}
